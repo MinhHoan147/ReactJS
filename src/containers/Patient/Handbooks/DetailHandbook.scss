@@ -1,0 +1,36 @@
+.handbook-container{
+    background: #d7d7d7;
+    height: 100%;
+    width: 100%;
+    .handbook-content{
+    padding-top: 90px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    width: 80%;
+    font-weight: 600;
+    background-color: white;
+    position: relative;
+    margin: 0 auto;
+
+    .banner{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 280px;
+        background-image: url('../../../assets/images/coronavirus-banner-size.jpg');
+        margin-bottom: 20px;
+        border-radius: 12px;
+    }
+
+    .date{
+        font-style: italic;
+        font-family: italic;
+        color: rgb(99, 98, 98);
+        margin-bottom: 5px;
+    }
+    .text-content{
+        
+    }
+}
+}

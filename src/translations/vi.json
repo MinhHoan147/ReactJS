@@ -1,0 +1,136 @@
+{
+    "home-header": {
+      "specialty": "Chuyên khoa",
+      "health-facilities": "Cơ sở y tế",
+      "doctor": "Bác sĩ",
+      "health-packet": "Gói khám",
+      "find-specialty": "Tìm kiếm chuyên khoa",
+      "find-facilities": "Tìm kiếm cơ sở y tế",
+      "find-doctor": "Tìm kiếm bác sĩ",
+      "find-packet": "Gói khám phù hợp",
+      "support": "Hỗ trợ",
+      "welcome": "Xin chào, "
+      },
+
+    "common": {
+        "add": "Thêm",
+        "edit": "Sửa",
+        "delete": "Xóa",
+        "decentralize": "Phân quyền",
+        "close": "Đóng",
+        "save": "Lưu",
+        "refresh": "Refresh",
+        "accept": "Chấp nhận",
+        "confirm": "Xác nhận",
+        "confirm-this-task": "Bạn có chắc chắn thực hiện tác vụ này?",
+        "fail-to-load-data": "Không thể tải về dữ liệu",
+        "unknown-error": "Có lỗi xảy ra",
+        "internal-server-error": "Lỗi kết nối",
+        "bad-request": "Yêu cầu không hợp lệ",
+        "forbiden-request": "Thông tin truyền vào không hợp lệ",
+        "fail-to-load-all-code": "Không thể tải về dữ liệu allcode",
+        "sum": "Tổng",
+        "date-range-invalid": "Khoảng thời gian không hợp lệ"
+    },
+  
+    "menu": {
+        "admin": {
+            "manage-user": "Người dùng",
+            "manage-doctor": "Quản lý bác sĩ",
+            "manage-admin": "Quản lý admin",
+            "CRUD": "CRUD user",
+            "CRUD-redux": "CRUD",
+            "manage-clinic": "Quản lý phòng khám",
+            "clinic": "Phòng khám",
+            "manage-specialty": "Quản lý chuyên khoa",
+            "specialty": "Chuyên khoa",
+            "manage-handbook": "Quản lý cẩm nang",
+            "handbook": "Cẩm nang"
+        },
+        "doctor": {
+            "manage-schedule": "Quản lý kế hoạch khám bệnh",
+            "manage-patient" : "Quản lý bệnh nhân khám bệnh"
+            
+        }
+    },
+    "manage-user":{
+        "title": "Quản lý người dùng",
+        "add": "Thêm mới người dùng",
+        "email": "Email",
+        "password": "Mật Khẩu",
+        "firstname": "Tên",
+        "lastname": "Họ",
+        "address": "Địa chỉ",
+        "phonenumber": "Số điện thoại",
+        "gender": "Giới tính",
+        "position": "Chức danh",
+        "role": "Mã chức danh",
+        "image": "Ảnh đại diện",
+        "save": "Lưu người dùng",
+        "edit": "Lưu thay đổi",
+        "upload-img": "Tải ảnh lên"
+    },
+    "homepage":{
+        "outstanding-doctor": "Bác sĩ nổi bật tuần qua",
+        "more-info": "Xem thêm",
+        "popular-specialty": "Chuyên khoa phổ biến",
+        "handbook": "Cẩm nang",
+        "About": "Về chúng tôi",
+        "About-content": "Dịch vụ Đặt lịch khám bệnh tại nhà - Là một dịch vụ khám/chữa bệnh tuyệt vời trong xã hội ngày nay, đặc biệt là trong thời kỳ khó khăn của dịch bệnh toàn cầu - Covid-19. Bên cạnh việc bệnh nhân được An toàn tuyệt đối mà còn giúp cho bệnh nhân tiết kiệm được một khoảng lớn thời gian khi không cần chờ đợi. ", 
+        "Clinics": "Phòng khám nổi bật"
+    },
+    "manage-schedule":{
+        "title": "Quản lý kế hoạch khám bệnh",
+        "choose-doctor": "Chọn Bác sĩ",
+        "choose-date": "Chọn Ngày",
+        "save": "Lưu thông tin"
+
+    },
+    "patient": {
+        "detail-doctor": {
+            "schedule": "Lịch khám",
+            "no-schedule": "Bác sĩ không có lịch hẹn trong thời gian này, vui lòng chọn thời gian khác",
+            "choose": "Chọn",
+            "book-free": "và Đặt (miễn phí)"
+        },
+        "extra-infor-doctor":{
+            "text-address": "Địa chỉ khám",
+            "price": "Giá khám",
+            "detail": "Xem chi tiết",
+            "payment": "Người bệnh có thể thanh toán chi phí bằng hình thức:",
+            "hide-price": "Ẩn bảng giá"
+        },
+        "booking-modal": {
+            "title": "Thông tin đặt lịch khám bệnh",
+            "fullName": "Họ và tên",
+            "phoneNumber": "Số điện thoại",
+            "email": "Địa chỉ email",
+            "address": "Địa chỉ liên hệ",
+            "reason": "Lý do khám bệnh",
+            "birthday": "Ngày sinh",
+            "gender": "Giới tính",
+            "btnConfirm": "Xác nhận",
+            "btnCancel": "Hủy",
+            "priceBooking": "Miễn phí đặt lịch",
+            "price": "Giá khám:"
+        }
+    },
+
+    "admin" : {
+        "manage-doctor": {
+            "title": "Tạo thêm thông tin bác sĩ",
+            "select-doctor": "Chọn Bác sĩ",
+            "doctor-intro": "Thông tin giới thiệu",
+            "add": "Tạo thông tin",
+            "save": "Lưu thông tin",
+            "price": "Giá khám bệnh",
+            "payment": "Hình thức thanh toán",
+            "province": "Tỉnh thành",
+            "nameClinic": "Tên phòng khám",
+            "addressClinic": "Địa chỉ phòng khám",
+            "note": "Ghi chú",
+            "select-specialty": "Chọn chuyên khoa",
+            "select-clinic": "Chọn phòng khám"
+        }
+    }
+}

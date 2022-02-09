@@ -1,0 +1,81 @@
+.login-background{
+    // background: linear-gradient(135deg, rgba(34,193,195,1) 0%,     rgba(253,187,45,1) 100%);
+    background: linear-gradient(#e66465, #9198e5);
+    height: 100vh;
+    
+     .login-container{
+        // border: 1px solid white;
+        position: absolute;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: 450px;
+        height: 500px;
+        background-color: white;
+        border-radius: 25px;
+        font-family: sans-serif;
+        .login-content{
+            margin: 18px;
+
+            .text-login{
+                font-size: 30px;
+                font-weight: 600;
+                padding-top: 10px;
+            }
+            
+            .form-group{
+                margin: 20px 0;
+                
+                .custom-input{
+                    position: relative;
+
+                    i {
+                        position: absolute;
+                        right: 7px;
+                        top: 10px;
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .btn-login{
+                width: 100%;
+                background: rgb(48, 139, 224);
+                color: white;
+                border-radius: 10px;
+                border: none;
+                outline: none;
+                height: 30px;
+                font-weight: 700;
+                font-size: 18px;
+                
+            }
+
+            
+            
+            .forgot-pass{
+                font-size: 12px;
+                padding-top: 5px;
+            }
+        
+            .social-login{
+                display: flex;
+                font-size: 45px;
+                justify-content: center;
+                margin-top: 10px;
+               .google{
+                color: rgb(223, 50, 50);
+                padding-right: 5px;
+            }
+               .facebook{
+                color: rgb(45, 45, 185);
+                padding-left: 5px;
+            }
+            }
+            
+        }
+    }
+}
+

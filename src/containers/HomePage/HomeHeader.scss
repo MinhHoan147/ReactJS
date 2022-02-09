@@ -1,0 +1,192 @@
+.home-header-menu{
+    height: 70px;
+    width: 100%;
+    padding: 0 10px;   //#3ea7ce
+    background-color: #76b2f3;
+    position: fixed;
+    top: 0;
+    z-index: 1000 ;
+  .home-header-content {
+     width: 100%;
+     height: 100%;
+     display: flex;
+ 
+    .content-left{
+       width: 25%;
+       display: flex;
+       align-items: center;
+       .header-logo{
+           background: url('../../assets/images/brandLogo.svg') center center no-repeat;
+           height: 90%;
+           width: 100%;
+           cursor: pointer;
+       }
+       i {
+           font-size: 25px;
+           color: grey;
+           margin-right: 20px;
+       }
+    } 
+    .content-mid{
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        font-weight: 600;
+        align-items: center;
+        font-size: 16px;
+        .child-content{
+
+          .sub-title{
+            font-weight: 400;
+            font-size: 12px;
+          }
+
+        }
+       
+     } 
+     .content-right{
+        width: 25%;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // justify-content: flex-end;
+        .support{
+            margin-right: 15px;
+            i{
+                color: rgb(81, 81, 207);
+                cursor: pointer;
+            }
+              
+         }
+
+         .language-vi{
+            margin-right: 2px;
+            cursor: pointer;
+            font-weight: 600;
+            opacity: 0.5;
+
+            &.active{
+                opacity: 1;
+                span{
+                    
+                    color: rgb(200, 1, 1);
+                }
+             
+            }
+
+            &:hover{
+                opacity: 0.8;
+            }
+         }
+         .language-en{
+            margin-left: 2px;
+            cursor: pointer;
+            font-weight: 600;
+            opacity: 0.5;
+            &.active{
+                opacity: 1;
+                span{
+                    
+                    color: rgb(2, 2, 200);
+                }
+             
+            }
+            &:hover{
+                opacity: 0.8;
+            }
+         }
+     } 
+}
+}
+
+.home-header-banner{
+    background: url('../../assets/images/cover1.jpg') ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+   .up{ 
+       height: 70%;
+       background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(255, 255, 255, 0.1));
+    .title1{
+        text-align: center;
+        font-size: 40px;
+        font-weight: 600;
+        font-family: sans-serif;
+        color: wheat;
+        text-shadow: 1px 1px 1px gray;
+        margin-top: 85px;
+    }
+
+    .search-bar{
+        margin: 0 auto ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid none;
+        border-radius: 30px;
+        background-color: #f7d800;
+        width: 400px;
+        padding: 10px;
+        margin-top: 10px;
+        i {
+          margin-right: 10px;
+        }
+        .search{
+            width: 300px;
+            height: 30px;
+            outline: none;
+            border: none;
+            background: transparent;
+        }
+     }
+    }
+   .down{
+       height: 30%;
+       padding-bottom: 10px;
+       display: flex;
+       align-items: flex-end;
+       justify-content: center;
+       background-image: linear-gradient(rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 1));
+       z-index: 0;
+       .options{
+           display: flex;
+           text-align: center;
+           grid-gap: 45px;
+           .child {
+            width: 120px;
+            text-shadow: 1px 1px 1px gray;
+               .child-icon{
+                   background: white;
+                   width: 50px;
+                   height: 50px;
+                   padding: 10px;
+                   border-radius: 50%;
+                   border: 1px dashed grey;
+                   text-align: center;
+                   margin: auto;
+                   
+                   i{
+                       color: #50bce2;
+                       font-size: 25px;
+                       text-shadow: 2px 2px 2px gray;
+                   }
+               }
+
+               .child-text{
+                   font-size: 18px;
+                   font-weight: 1000px;
+                   cursor: pointer;
+                   color: black;
+                    &:hover{
+                        color: #50bce2;
+                    }
+               }
+           }
+       }
+   }
+    
+}

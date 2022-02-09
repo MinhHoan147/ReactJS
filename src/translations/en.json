@@ -1,0 +1,134 @@
+{
+    "home-header": {
+      "specialty": "Specialty",
+      "health-facilities": "Health facilities",
+      "doctor": "Doctor",
+      "health-packet": "Health packet for you",
+      "find-specialty": "Finding by specialty",
+      "find-facilities": "Finding a facility",
+      "find-doctor": "Fiding a doctor",
+      "find-packet": "Packet for you",
+      "support": "Support",
+      "welcome": "Welcome, "
+    },
+
+    "common": {
+        "add": "Add",
+        "edit": "Edit",
+        "delete": "Delete",
+        "decentralize": "Decentralize",
+        "close": "Close",
+        "save": "Save",
+        "refresh": "Refresh",
+        "accept": "Accept",
+        "confirm": "Confirm",
+        "confirm-this-task": "Are you sure to process this task?",
+        "fail-to-load-data": "Fail to load data",
+        "unknown-error": "There was an error",
+        "internal-server-error": "Internal server error",
+        "bad-request": "Bad request",
+        "forbiden-request": "Invalid input data",
+        "fail-to-load-all-code": "Fail to load data from allcode",
+        "sum": "Sum",
+        "date-range-invalid": "Date range invalid"
+    },
+    "menu": {
+        "admin": {
+            "manage-user": "User manage",
+            "manage-doctor": "Doctor manage",
+            "manage-admin": "Admin manage",
+            "CRUD": "CRUD user",
+            "CRUD-redux": "CRUD",
+            "manage-clinic": "Clinic Manage",
+            "clinic": "Clinics",
+            "manage-specialty": "Specialty Manage",
+            "specialty": "Specialty",
+            "manage-handbook": "Handbook Manage",
+            "handbook": "HandBook"
+        },
+        "doctor": {
+            "manage-schedule": "Manage Doctor's Schedule",
+            "manage-patient" : "Manage Doctor's Patient"
+        }
+    },
+    "manage-user":{
+        "title": "Manage User",
+        "add": "Add new",
+        "email": "Email",
+        "password": "Password",
+        "firstname": "First Name",
+        "lastname": "Last Name",
+        "address": "Address",
+        "phonenumber": "Phone Number",
+        "gender": "Gender",
+        "position": "Position",
+        "role": "RoleID",
+        "image": "Avatar",
+        "save": "Save user",
+        "edit": "Save changes",
+        "upload-img": "Upload image"
+    },
+    "homepage":{
+        "outstanding-doctor": "Last week's fetured doctors",
+        "more-info": "More information",
+        "popular-specialty": "Popular specialties",
+        "handbook": "Handbook",
+        "About": "About us",
+        "About-content": "Home appointment booking service - Is a great medical examination / treatment service in today's society, especially in the difficult time of the global service - Covid-19. In addition to the patient's work being absolutely safe, it also saves the patient a great deal of time when there is no need to wait.", 
+        "Clinics": "Popular Clinics"
+    },
+    "manage-schedule":{
+        "title": "Manage doctor's plan",
+        "choose-doctor": "Choose doctor",
+        "choose-date": "Choose date",
+        "save": "Save infor"
+
+    },
+    "patient": {
+        "detail-doctor": {
+            "schedule": "Schedule",
+            "no-schedule": "No schedule during this time, please choose another schedule !",
+            "choose": "Choose",
+            "book-free": "and Book (free)"
+        },
+        "extra-infor-doctor":{
+            "text-address": "Address of examination",
+            "price": "Examination price",
+            "detail": "See details",
+            "payment": "The patient can pay the cost in the form of:",
+            "hide-price": "Hide price list"
+        },
+        "booking-modal": {
+            "title": "Booking's Information",
+            "fullName": "Fullname",
+            "phoneNumber": "Phone Number",
+            "email": "Email",
+            "address": "Address",
+            "reason": "Why you want a medical examination ?",
+            "birthday": "Date of Birth",
+            "gender": "Gender",
+            "btnConfirm": "Confirm",
+            "btnCancel": "Cancel",
+            "priceBooking": "Free Booking",
+            "price": "Price:"
+        }
+    },
+    "admin" : {
+        "manage-doctor": {
+            "title": "Create more information",
+            "select-doctor": "Select doctor",
+            "doctor-intro": "Introduction",
+            "add": "Create Infor",
+            "save": "Save Infor",
+            "price": "Price",
+            "payment": "Payment",
+            "province": "Province",
+            "nameClinic": "Clinic's name",
+            "addressClinic": "Clinic's address",
+            "note": "Note",
+            "select-specialty": "Specialty",
+            "select-clinic": "Clinic"
+        }
+    }
+
+}
